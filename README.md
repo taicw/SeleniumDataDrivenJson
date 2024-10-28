@@ -1,5 +1,7 @@
 This is a Selenium project in JAVA using Intellij
 
+The project demo how to fetch data from JSON file and perform automation testing
+
 Tutorial Video - 
 
 #1 Download the project as ZIP
