@@ -23,7 +23,7 @@ public class SeleniumTest {
     public void Start(){
 
         //Modify your ChromeDriver path accordingly
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Downloads\\Selenium\\drivers//chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","chromedriver.exe");
         driver.get("https://demo.guru99.com/payment-gateway/index.php");
         driver.manage().window().maximize();
 

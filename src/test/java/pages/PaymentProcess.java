@@ -27,7 +27,6 @@ public class PaymentProcess extends PageBase {
         WebElement cvv = driver.findElement(By.xpath("//input[@id='cvv_code']"));
         WebElement buyBtn = driver.findElement(By.xpath("//input[@class='button special']"));
 
-
         cardNum.sendKeys(cardNo);
         expMonth.selectByValue(String.valueOf(month));
         expYear.selectByValue(String.valueOf(year));
