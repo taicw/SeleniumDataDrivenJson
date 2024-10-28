@@ -7,7 +7,8 @@ Tutorial Video -
 #2 Unzip the file
 
 #3 Open SeleniumTest.java
-Change the chromedriver path if required
+
+//Change the chromedriver path if required
 
 #4 Run project
 
