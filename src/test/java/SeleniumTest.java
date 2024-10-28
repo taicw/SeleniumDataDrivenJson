@@ -1,4 +1,3 @@
-import base.PageBase;
 import model.DataUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,10 +22,11 @@ public class SeleniumTest {
     @BeforeTest
     public void Start(){
 
+        //Modify your ChromeDriver path accordingly
         System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Downloads\\Selenium\\drivers//chromedriver.exe");
         driver.get("https://demo.guru99.com/payment-gateway/index.php");
         driver.manage().window().maximize();
-        //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='inner']//h2")));
 
         WebElement title = driver.findElement(By.xpath("//div[@class='inner']//h2"));
@@ -52,6 +52,5 @@ public class SeleniumTest {
         //driver.close();
         driver.quit();
     }
-
 }
 

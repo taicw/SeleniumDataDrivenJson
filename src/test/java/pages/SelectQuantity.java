@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class SelectQuantity extends PageBase {
 
+    //Random generate a number as input quantity
     public SelectQuantity inputQuantity(WebDriver driver) throws InterruptedException {
 
         WebElement buyBtn = driver.findElement(By.xpath("//input[@class='button special']"));

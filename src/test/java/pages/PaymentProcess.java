@@ -18,7 +18,7 @@ public class PaymentProcess extends PageBase {
     By expYear = By.xpath("//input[@id='year']");
     By cvv = By.xpath("//input[@id='cvv_code']");*/
 
-
+    //Input the payment details using dat from json file
     public PaymentProcess inputPaymentInfo(WebDriver driver, String cardNo, String month, String year, String cvvNo) throws InterruptedException {
 
         WebElement cardNum = driver.findElement(By.xpath("//input[@id='card_nmuber']"));
@@ -40,6 +40,7 @@ public class PaymentProcess extends PageBase {
         return this;
     }
 
+    //Verify payment is completed and save the order ID
     public PaymentProcess verifyPaymentSuccessful(WebDriver driver){
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
