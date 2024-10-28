@@ -1,6 +1,6 @@
 This is a Selenium project in JAVA using Intellij
 
-Tutorial Video - https://www.screencast.com/t/oTwUX1X32
+Tutorial Video - 
 
 #1 Download the project as ZIP
 
